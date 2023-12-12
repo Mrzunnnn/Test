@@ -26,7 +26,7 @@ public class bai5 {
 //        ý 3
         for (int i=0;i<soDong;i++){
             for (int j=0;j<soCot;j++){
-                if(i==j){
+                if(i==j || j==A.length - i - 1){
                     System.out.println("số nằm trên trục chính là" + A[i][j]);
                 }
             }

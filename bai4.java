@@ -6,17 +6,13 @@ public class bai4 {
         int i=2;
         int s=0;
         while (s<n){
-            if(isPrimeNumber(i)){
-                System.out.println(i);
-                s++;
+            if(isPrimeNumber(i)) {
+                if (i<=10) {
+                    System.out.println(i);
+                    s++;
+                }
             }
             i++;
-//            ý 2
-//            if(i<10&&i>0){
-//                System.out.println("số nguyên tố nhỏ hơn 10 là " +i);
-//                s++;
-//            }
-//            i++;
         }
     }
     public static boolean  isPrimeNumber(int n){
